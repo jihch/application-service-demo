@@ -1,0 +1,10 @@
+spring:
+  application:
+    # 如果没有配置，默认名称 UNKNOWN
+    name: myproject
+
+eureka:
+  client:
+    service-url:
+      # 下面信息也是默认值
+      defaultZone: http://localhost:8761/eureka/
